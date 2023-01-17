@@ -96,6 +96,12 @@ document.getElementById("generate").onclick = function() { //connect prompt to t
   let passwordLength1 = Number(passwordLength);
   //console.log(typeof passwordLength1);
   //console.log(passwordLength1);               //some testing
+
+  while (passwordLength < 10 || passwordLength > 64) {   //this code make user to choose correct password length
+    alert("Incorrect password length. Please, choose the correct password length beetwen 10 and 64");
+    let passwordLength = prompt("Please, choose your password length(10-64 characters)");
+  };
+
   let userInputLowercase = confirm("Do you want lowercases in your password?");
 
   let userInputUppercase = confirm("Do you want uppercases in your password?");
@@ -139,48 +145,4 @@ document.getElementById("generate").onclick = function() { //connect prompt to t
   return passwordOut;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-// //let randomIndex = Math.floor(Math.random() * passwordLength??????);
-
-// // Function to prompt user for password options
-// function getPasswordOptions() {
-
-// }
-
-// // Function for getting a random element from an array
-// function getRandom(arr) {
-
-  
-
-// }
-// // Function to generate password with user input
-// function generatePassword() {
-
-// }
-
-// // Get references to the #generate element
-// var generateBtn = document.querySelector('#generate');
-
-// // Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector('#password');
-
-//   passwordText.value = password;
-// }
-
-// // Add event listener to generate button
-// generateBtn.addEventListener('click', writePassword);
 
