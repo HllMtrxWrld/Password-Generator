@@ -22,9 +22,9 @@ https://hllmtrxwrld.github.io/Password-Generator/
 ## Credits
 
 N/A
-![alt text](./Assets/Img/1.pngAssets/Images/)
-![alt text](./Assets/Img/2.pngAssets/Images/)
-![alt text](./Assets/Img/3.pngAssets/Images/)
+![alt text](./Assets/Img/1.png)
+![alt text](./Assets/Img/2.png)
+![alt text](./Assets/Img/3.png)
 ## License
 
 N/A
